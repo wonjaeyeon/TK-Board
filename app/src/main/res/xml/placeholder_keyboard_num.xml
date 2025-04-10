@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:keyHeight="50dp"
+        android:keyWidth="0dp"
+        android:horizontalGap="0px"
+        android:verticalGap="0px">
+
+    <!-- 첫 번째 행: 숫자 1~0 -->
+    <Row>
+        <Key
+                android:codes="49"
+                android:keyLabel="1"
+                android:width="0dp"/>
+        <Key
+                android:codes="50"
+                android:keyLabel="2"
+                android:width="0dp"/>
+        <Key
+                android:codes="51"
+                android:keyLabel="3"
+                android:width="0dp"/>
+        <Key
+                android:codes="52"
+                android:keyLabel="4"
+                android:width="0dp"/>
+        <Key
+                android:codes="53"
+                android:keyLabel="5"
+                android:width="0dp"/>
+        <Key
+                android:codes="54"
+                android:keyLabel="6"
+                android:width="0dp"/>
+        <Key
+                android:codes="55"
+                android:keyLabel="7"
+                android:width="0dp"/>
+        <Key
+                android:codes="56"
+                android:keyLabel="8"
+                android:width="0dp"/>
+        <Key
+                android:codes="57"
+                android:keyLabel="9"
+                android:width="0dp"/>
+        <Key
+                android:codes="48"
+                android:keyLabel="0"
+                android:width="0dp"/>
+    </Row>
+
+
+
+    <!-- 네 번째 행: 한/영(-101), ABC(-2), Space(32), Del(-5), Enter(-4) -->
+    <Row>
+        <!-- 한/영 전환 (임의 코드 -101) -->
+        <Key
+                android:codes="-101"
+                android:keyLabel="한/영"
+                android:width="0dp"/>
+
+        <!-- ABC 전환 (임의 코드 -2) -->
+        <Key
+                android:codes="-2"
+                android:keyLabel="ABC"
+                android:width="0dp"/>
+
+        <!-- Space -->
+        <Key
+                android:codes="32"
+                android:keyLabel="Space"
+                android:width="0dp"/>
+
+        <!-- Del -->
+        <Key
+                android:codes="-5"
+                android:keyLabel="Del"
+                android:width="0dp"/>
+
+        <!-- Enter -->
+        <Key
+                android:codes="-4"
+                android:keyLabel="Enter"
+                android:width="0dp"/>
+    </Row>
+
+</Keyboard>

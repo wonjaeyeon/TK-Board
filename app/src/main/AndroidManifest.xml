@@ -13,7 +13,7 @@
             android:theme="@style/Theme.TKBoard"
             tools:targetApi="31">
 
-        <!-- IME로 동작하기 위한 Service 등록 -->
+        <!-- IME(Service) 등록 -->
         <service
                 android:name=".MyKeyboardService"
                 android:label="@string/app_name"
@@ -22,12 +22,15 @@
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
             </intent-filter>
-            <!-- IME 설정 (res/xml/method.xml) 참조 -->
             <meta-data
                     android:name="android.view.im"
                     android:resource="@xml/method" />
         </service>
 
+        <!-- (옵션) 키보드 설정 액티비티 -->
+        <activity android:name=".SettingsActivity" />
+
+        <!-- (옵션) 앱 런처 액티비티 (테스트용) -->
         <activity
                 android:name=".MainActivity"
                 android:exported="true">

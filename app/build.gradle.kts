@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.teclast_korea.tkboard"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.teclast_korea.tkboard"

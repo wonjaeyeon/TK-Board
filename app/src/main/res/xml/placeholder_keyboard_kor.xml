@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:keyHeight="50dp"
+        android:keyWidth="0dp"
+        android:horizontalGap="0px"
+        android:verticalGap="0px">
+
+    <!-- 숫자 행 (원한다면 영문과 동일하게) -->
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" android:width="0dp" />
+        ...
+        <Key android:codes="48" android:keyLabel="0" android:width="0dp" />
+    </Row>
+
+    <!-- 자모 행 1 -->
+    <Row>
+        <Key android:codes="12593" android:keyLabel="ㅂ" android:width="0dp"/>
+        <Key android:codes="12609" android:keyLabel="ㅈ" android:width="0dp"/>
+        <Key android:codes="12365" android:keyLabel="ㄷ" android:width="0dp"/>
+        <Key android:codes="12599" android:keyLabel="ㄱ" android:width="0dp"/>
+        <Key android:codes="12601" android:keyLabel="ㅅ" android:width="0dp"/>
+        <Key android:codes="12596" android:keyLabel="ㅛ" android:width="0dp"/>
+        <Key android:codes="12597" android:keyLabel="ㅕ" android:width="0dp"/>
+        <Key android:codes="12598" android:keyLabel="ㅑ" android:width="0dp"/>
+        <Key android:codes="12602" android:keyLabel="ㅐ" android:width="0dp"/>
+        <Key android:codes="12603" android:keyLabel="ㅔ" android:width="0dp"/>
+    </Row>
+
+    <!-- 자모 행 2 -->
+    <Row>
+        <Key android:codes="-1" android:keyLabel="Shift" android:width="0dp"/>
+
+        <Key android:codes="12613" android:keyLabel="ㅁ" android:width="0dp"/>
+        <Key android:codes="12616" android:keyLabel="ㄴ" android:width="0dp"/>
+        <Key android:codes="12618" android:keyLabel="ㅇ" android:width="0dp"/>
+        <Key android:codes="12620" android:keyLabel="ㄹ" android:width="0dp"/>
+        <Key android:codes="12621" android:keyLabel="ㅎ" android:width="0dp"/>
+        <Key android:codes="12622" android:keyLabel="ㅗ" android:width="0dp"/>
+        <Key android:codes="12623" android:keyLabel="ㅓ" android:width="0dp"/>
+        <Key android:codes="12624" android:keyLabel="ㅏ" android:width="0dp"/>
+        <Key android:codes="12625" android:keyLabel="ㅣ" android:width="0dp"/>
+    </Row>
+
+    <!-- 자모 행 3 -->
+    <Row>
+        <Key android:codes="-101" android:keyLabel="한/영" android:width="0dp"/>
+
+        <Key android:codes="12627" android:keyLabel="ㅋ" android:width="0dp"/>
+        <Key android:codes="12628" android:keyLabel="ㅌ" android:width="0dp"/>
+        <Key android:codes="12629" android:keyLabel="ㅊ" android:width="0dp"/>
+        <Key android:codes="12630" android:keyLabel="ㅍ" android:width="0dp"/>
+
+        <Key android:codes="-5" android:keyLabel="Del" android:width="0dp" />
+    </Row>
+
+    <!-- 스페이스 행 -->
+    <Row>
+        <Key android:codes="-2" android:keyLabel="123?" android:width="0dp"/>
+        <Key android:codes="32"  android:keyLabel="Space" android:width="0dp" />
+        <Key android:codes="-4" android:keyLabel="Enter" android:width="0dp"/>
+    </Row>
+
+</Keyboard>
